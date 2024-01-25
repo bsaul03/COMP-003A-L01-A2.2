@@ -24,7 +24,7 @@ namespace COMP_003A_L01_A2._2
             string lastName = Console.ReadLine();
             Console.Write("Enter your Age in 2024: ");
             int yearBorn = 2024 - Convert.ToInt32(Console.ReadLine());
-            string inputAge = Console.ReadLine();
+            
             Console.WriteLine($"Hello, {firstName} {middleName} {lastName}. You were born in {yearBorn}");
             //math section
             Console.Write("Enter the first integer: ");
@@ -41,7 +41,7 @@ namespace COMP_003A_L01_A2._2
             Console.WriteLine($"{integer1} % {integer2} = {integer1 % integer2}");
             //Circle Area & Circumference Calculator Section
             Console.Write("Enter the radius: ");
-            string radiusInput = Console.ReadLine();
+            string radiusInput;
             double radius = Convert.ToDouble(Console.ReadLine());
             double area = Math.PI * Math.Pow(radius, 2);
             double circumference = 2 * Math.PI * radius;
