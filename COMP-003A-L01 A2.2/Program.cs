@@ -47,6 +47,7 @@ namespace COMP_003A_L01_A2._2
             double circumference = 2 * Math.PI * radius;
             Console.WriteLine($"The area of the circle with radius {radius} is: {area}");
             Console.WriteLine($"The circumference of the circle with radius {radius} is: {circumference}");
+
         }
     }
 }
